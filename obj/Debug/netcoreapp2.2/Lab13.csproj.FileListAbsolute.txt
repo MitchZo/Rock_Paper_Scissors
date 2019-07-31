@@ -1,0 +1,11 @@
+C:\Users\outvi\source\repos\Lab13\bin\Debug\netcoreapp2.2\Lab13.deps.json
+C:\Users\outvi\source\repos\Lab13\bin\Debug\netcoreapp2.2\Lab13.runtimeconfig.json
+C:\Users\outvi\source\repos\Lab13\bin\Debug\netcoreapp2.2\Lab13.runtimeconfig.dev.json
+C:\Users\outvi\source\repos\Lab13\bin\Debug\netcoreapp2.2\Lab13.dll
+C:\Users\outvi\source\repos\Lab13\bin\Debug\netcoreapp2.2\Lab13.pdb
+C:\Users\outvi\source\repos\Lab13\obj\Debug\netcoreapp2.2\Lab13.csprojAssemblyReference.cache
+C:\Users\outvi\source\repos\Lab13\obj\Debug\netcoreapp2.2\Lab13.csproj.CoreCompileInputs.cache
+C:\Users\outvi\source\repos\Lab13\obj\Debug\netcoreapp2.2\Lab13.AssemblyInfoInputs.cache
+C:\Users\outvi\source\repos\Lab13\obj\Debug\netcoreapp2.2\Lab13.AssemblyInfo.cs
+C:\Users\outvi\source\repos\Lab13\obj\Debug\netcoreapp2.2\Lab13.dll
+C:\Users\outvi\source\repos\Lab13\obj\Debug\netcoreapp2.2\Lab13.pdb
