@@ -10,13 +10,13 @@ namespace Lab13
         private string weaponOfChoice;
 
         public string Name { get; set; }
-        public string WeaponOfChoice { get; set; }
+        public Enum WeaponOfChoice { get; set; }
 
         public Player()
         {
 
         }
 
-        public abstract string GenerateRoshambo();
+        public abstract Enum GenerateRoshambo();
     }
 }
