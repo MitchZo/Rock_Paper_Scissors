@@ -7,15 +7,21 @@ namespace Lab13
     public class Melvin : Player
     {
         readonly Random rng = new Random();
-        public override Enum GenerateRoshambo()
+        public override WeaponOfChoice GenerateRoshambo()
         {
             int melvinChoice = rng.Next(4);
             if (melvinChoice == 1)
-            { return Roshambo.rock; }
+            { 
+                return WeaponOfChoice.rock; 
+            }
             else if (melvinChoice ==2)
-            { return Roshambo.paper; }
+            {
+                return WeaponOfChoice.paper; 
+            }
             else
-            { return Roshambo.scissors; }
+            {   
+                return WeaponOfChoice.scissors; 
+            }
         }
     }
 }

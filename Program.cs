@@ -2,7 +2,7 @@
 
 namespace Lab13
 {
-    enum Roshambo
+    public enum WeaponOfChoice
     {
         rock,
         paper,
