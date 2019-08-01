@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\outvi\\.nuget\\packages\\": {},
+    "C:\\Users\\bdonaldson\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\outvi\\source\\repos\\Lab13\\Lab13.csproj",
+      "projectUniqueName": "c:\\Users\\bdonaldson\\source\\repos\\Rock_Paper_Scissors\\Lab13.csproj",
       "projectName": "Lab13",
-      "projectPath": "C:\\Users\\outvi\\source\\repos\\Lab13\\Lab13.csproj",
-      "packagesPath": "C:\\Users\\outvi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\outvi\\source\\repos\\Lab13\\obj\\",
+      "projectPath": "c:\\Users\\bdonaldson\\source\\repos\\Rock_Paper_Scissors\\Lab13.csproj",
+      "packagesPath": "C:\\Users\\bdonaldson\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\bdonaldson\\source\\repos\\Rock_Paper_Scissors\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\outvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bdonaldson\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -710,7 +710,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://qugetgal.rockfin.com/api/v2": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
