@@ -7,7 +7,7 @@ namespace Lab13
     public class Harry : Player
     {
         //all harry does is throw rock
-        public override Enum GenerateRoshambo()
+        public override Roshambo GenerateRoshambo()
         {
             return Roshambo.rock;
         }

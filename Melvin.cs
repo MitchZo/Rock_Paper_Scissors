@@ -7,7 +7,7 @@ namespace Lab13
     public class Melvin : Player
     {
         readonly Random rng = new Random();
-        public override Enum GenerateRoshambo()
+        public override Roshambo GenerateRoshambo()
         {
             int melvinChoice = rng.Next(4);
             if (melvinChoice == 1)

@@ -6,7 +6,7 @@ namespace Lab13
 {
     public class Challenger : Player
     {
-        public override Enum GenerateRoshambo()
+        public override Roshambo GenerateRoshambo()
         {
             //get user's weapon
             string choice = RoshamboApp.GetUserInput("CHOOSE YOUR WEAPON!\n1. ROCK! (MOST DURABLE OF ALL WEAPONS! WEAK AGAINST TREE PULP!)\n2. PAPER! (BEST COVERAGE TO SUPPRESS YOUR ENEMIES! CAN BE SHEARED WITH BLADES!)\n" +

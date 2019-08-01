@@ -23,8 +23,8 @@ namespace Lab13
                 if (win == true)
                 { winCount++; }
                 else { lossCount++; }
-                string response = GetUserInput("DO YOU DARE REENTER THE ARENA, FOOL?", "YES OR NO! ARE YOU BRASH ENOUGH TO FACE THE MONSTERS AGAIN??","yes/no");
-                if (response.ToLower() == "yes")
+                string response = GetUserInput("DO YOU DARE REENTER THE ARENA, FOOL?", "YES OR NO! ARE YOU BRASH ENOUGH TO FACE THE MONSTERS AGAIN??","yes/no/y/n");
+                if (response.ToLower() == "yes" || response.ToLower()=="y")
                 {
                     playAgain = true;
                 }
@@ -125,13 +125,13 @@ namespace Lab13
         }
         public static bool Clash(Challenger user, Player opponent)
         {
-            if (user.WeaponOfChoice.ToString() == "paper")
+            if (user.WeaponOfChoice == Roshambo.paper)
             {
-                if (opponent.WeaponOfChoice.ToString() == "rock")
+                if (opponent.WeaponOfChoice == Roshambo.rock)
                 {
                     Console.WriteLine($"{user.Name.ToUpper()}'S MIGHTY SHEET OF PRINTER PAPER ENTIRELY ENCOMPASSES {opponent.Name.ToUpper()}'S PUNY PEBBLE!");
                     return true; }
-                else if (opponent.WeaponOfChoice.ToString() == "scissors")
+                else if (opponent.WeaponOfChoice == Roshambo.scissors)
                 {
                     Console.WriteLine($"THE FINELY SHARPENED EDGES OF {opponent.Name.ToUpper()}'S BLADES TEAR {user.Name.ToUpper()}'S WEAK PAPER TO SHREDS!");
                     return false; }
@@ -141,14 +141,14 @@ namespace Lab13
                     return Combat(user, opponent.Name);
                 }
             }
-            else if (user.WeaponOfChoice.ToString() == "rock")
+            else if (user.WeaponOfChoice == Roshambo.rock)
             {
-                if (opponent.WeaponOfChoice.ToString() == "scissors")
+                if (opponent.WeaponOfChoice == Roshambo.scissors)
                 {
                     Console.WriteLine($"{user.Name.ToUpper()}'S BOULDER DEMOLOISHES {opponent.Name.ToUpper()}'S SHEARS AS IF THEY WERE MADE OF TIN FOIL!");
                     return true;
                 }
-                else if (opponent.WeaponOfChoice.ToString() == "paper")
+                else if (opponent.WeaponOfChoice == Roshambo.paper)
                 {
                     Console.WriteLine($"{user.Name.ToUpper()}'S BOULDER IS IMMOVEABLE! {opponent.Name.ToUpper()}'S PAPER IS PLACED NEATLY ATOP IT!");
                     return false;
@@ -161,12 +161,12 @@ namespace Lab13
             }
             else
             {
-                if (opponent.WeaponOfChoice.ToString() == "paper")
+                if (opponent.WeaponOfChoice == Roshambo.paper)
                 {
                     Console.WriteLine($"{user.Name.ToUpper()}'S SCISSORS CUT THROUGH {opponent.Name.ToUpper()}'S PAPER LIKE IT WAS PAPER!");
                     return true;
                 }
-                else if (opponent.WeaponOfChoice.ToString() == "rock")
+                else if (opponent.WeaponOfChoice == Roshambo.rock)
                 {
                     Console.WriteLine($"{user.Name.ToUpper()} IS CRUSHED UNDER THE MASSIVE WEIGHT OF {opponent.Name.ToUpper()}'S ROCK SLIDE!");
                     return false;
